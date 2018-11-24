@@ -1,0 +1,241 @@
+!SESSION 2018-11-23 02:06:28.132 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-23 02:08:03.416
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aliaz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-11-23 02:27:51.482 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data E:\webproject
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-23 02:28:02.279
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aliaz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-11-23 02:28:46.330 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/E:/webproject/
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-23 02:29:02.525
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aliaz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:40.719
+!MESSAGE Verifying resource availability failed
+!STACK 0
+java.lang.Exception
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:126)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:40.721
+!MESSAGE http://download.eclipse.org/mylyn/snapshots/3.24/content.jar
+!STACK 0
+java.io.FileNotFoundException: http://download.eclipse.org/mylyn/snapshots/3.24/content.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:302)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.checkException(FileInfoReader.java:221)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.getLastModified(P2TransportService.java:111)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.getLastModified(WebUtil.java:184)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:130)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:40.722
+!MESSAGE http://download.eclipse.org/mylyn/snapshots/3.24/content.xml
+!STACK 0
+java.io.FileNotFoundException: http://download.eclipse.org/mylyn/snapshots/3.24/content.xml
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:302)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.checkException(FileInfoReader.java:221)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.getLastModified(P2TransportService.java:111)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.getLastModified(WebUtil.java:184)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:130)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:40.722
+!MESSAGE http://download.eclipse.org/mylyn/snapshots/3.24/compositeContent.jar
+!STACK 0
+java.io.FileNotFoundException: http://download.eclipse.org/mylyn/snapshots/3.24/compositeContent.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:302)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.checkException(FileInfoReader.java:221)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.getLastModified(P2TransportService.java:111)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.getLastModified(WebUtil.java:184)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:130)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:45.508
+!MESSAGE Verifying resource availability failed
+!STACK 0
+java.lang.Exception
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:126)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:45.509
+!MESSAGE http://downloads.open.collab.net/eclipse/update-site/e3.5/content.jar
+!STACK 0
+java.io.FileNotFoundException: http://downloads.open.collab.net/eclipse/update-site/e3.5/content.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:302)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.checkException(FileInfoReader.java:221)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.getLastModified(P2TransportService.java:111)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.getLastModified(WebUtil.java:184)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:130)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:45.509
+!MESSAGE http://downloads.open.collab.net/eclipse/update-site/e3.5/content.xml
+!STACK 0
+java.io.FileNotFoundException: http://downloads.open.collab.net/eclipse/update-site/e3.5/content.xml
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:302)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.checkException(FileInfoReader.java:221)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.getLastModified(P2TransportService.java:111)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.getLastModified(WebUtil.java:184)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:130)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 1 org.eclipse.mylyn.discovery.core 4 0 2018-11-23 02:30:45.509
+!MESSAGE http://downloads.open.collab.net/eclipse/update-site/e3.5/compositeContent.jar
+!STACK 0
+java.io.FileNotFoundException: http://downloads.open.collab.net/eclipse/update-site/e3.5/compositeContent.jar
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:302)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.checkException(FileInfoReader.java:221)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:112)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:233)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.delegateGetLastModified(CachingTransport.java:396)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.getLastModified(CachingTransport.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.mylyn.internal.discovery.core.util.P2TransportService.getLastModified(P2TransportService.java:111)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.getLastModified(WebUtil.java:184)
+	at org.eclipse.mylyn.internal.discovery.core.util.WebUtil.verifyAvailability(WebUtil.java:130)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:418)
+	at org.eclipse.mylyn.internal.discovery.core.model.ConnectorDiscovery$VerifyUpdateSiteJob.call(ConnectorDiscovery.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2018-11-23 02:32:59.277
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-23 05:06:23.376
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-23 06:15:59.899
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+!SESSION 2018-11-23 23:27:32.666 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-11-23 23:27:57.921
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-11-23 23:28:33.991
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\aliaz'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-11-24 01:15:06.044
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

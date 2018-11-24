@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>UserForm</title>
+</head>
+<body>
+<form action="servlet">
+  First name:<br>
+  <input type="text" name="MyName" value="Ali"><br>
+  Last name:<br>
+  <input type="text" name="" value="Mouse"><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
